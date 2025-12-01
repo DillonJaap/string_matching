@@ -1,0 +1,6 @@
+(executable
+ (public_name string_matching)
+ (name main)
+ (libraries string_matching core)
+ (preprocess
+  (pps ppx_jane)))
